@@ -18,7 +18,9 @@ body{
     background-color: hsl(30, 54%, 90%);
     display: grid;
     place-items: center;
-    height: 100vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    line-height: 2em;
 }
 
 .box1{
@@ -54,8 +56,33 @@ img{
 
 .box2{
     background-color: hsl(330, 100%, 98%);
+    margin: 5%;
+    border-radius: 20px;
 }
 
 .midtitle{
     color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.box3{
+   border-top: 1px solid;
+   border-bottom: 1px solid;
+}
+
+article{
+    font-family: Outfit-Light;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+table{
+    width: inherit;
+}
+
+th, tr, td{
+    border-bottom: solid 1px;
+    width: inherit;
+    line-height: 1%;
+    padding: 5%;
 }
